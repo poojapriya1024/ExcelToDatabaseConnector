@@ -2,35 +2,18 @@
 <html>
 <head>
     <title>Excel to Database Connector</title>
-
+    <link rel="stylesheet" href="design.css">
 </head>
 <body>
-    <h1>Upload your excel file here.</h1>
-    <form action="{{ url_for('view') }}" method="post" enctype="multipart/form-data">
-        <input type="file" name="file" accept=".xlsx"> 
-        <input type="submit" value="Upload to DB">
-    </form>
-    
-    <div>
-        <h2>Description</h2>
-    <ul>
-        <li> The "Excel to Database Connector" is a Python-based tool that allows
-            seamless data transfer between Excel files and databases.
-        </li>
-    <li>
-            It provides a simple and efficient way to import data from Excel spreadsheets 
-            and store it in a database for further analysis or processing.
-    </li>
-    </ul>
+    <div class="container">
+        <h2>Excel to Database Importer</h2>
+        <h2>Upload your excel file here.</h2>
+        <div class="container2">
+            <form action="{{ url_for('view') }}" method="post" enctype="multipart/form-data" class="button">
+                <input type="file" name="file" accept=".xlsx"> 
+                <input type="submit" value="Upload to DB" class="button">
+            </form>
+        </div>
     </div>
-
-    <div>
-        <style>
-            body {
-                background-image: url('https://marketplace.canva.com/EAEthkBVLfQ/1/0/1600w/canva-blush-wave-desktop-wallpaper-drvq3zaYl2E.jpg');
-            }
-            </style>
-    </div>
-   
 </body>
 </html>

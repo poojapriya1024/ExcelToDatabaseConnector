@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-image: url('https://marketplace.canva.com/EAEthkBVLfQ/1/0/1600w/canva-blush-wave-desktop-wallpaper-drvq3zaYl2E.jpg');
+    display:flex;
+    height: 100vh;
+    justify-content:center;
+    align-items:center;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background-color: #f9eceb;
+    border-radius: 10px;
+    text-align: center;
+    width:550px;
+    height: 250px;
+    margin: 5px;
+    border-color: black;
+}
+
+.container2 {
+    padding-top: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
